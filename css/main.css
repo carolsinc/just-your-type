@@ -1,25 +1,26 @@
 
-html{
-  font-family: 'Averia Serif Libre', cursive;
+html {
+  font-family: "Averia Serif Libre", cursive;
 }
 
 main {
-  background-color: #686BA7;
+  background-color: #686ba7;
 }
 
-.z-5, .z-1{
+.z-5, .z-1 {
   color: #aaadce;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
-.z-5{
+
+.z-5 {
   display: none;
 }
 
 .quote {
-  color: #D9BD8B;
+  color: #d9bd8b;
   position: absolute;
-  top:48px;
+  top: 48px;
 }
 
 p {
@@ -27,23 +28,24 @@ p {
 }
 
 strong {
-  color: #3D150F;
+  color: #3d150f;
   display: block;
 }
 
 @media only screen and (min-width: 38em) {
 
-.z-5{
-  display: block;
-  text-align: center;
-}
-
-.z-1 {
-  display: none;
+  .z-5 {
+    display: block;
+    text-align: center;
   }
 
-.quote {
-  position: static;
-  text-align: center;
-}
+  .z-1 {
+    display: none;
+  }
+
+  .quote {
+    position: static;
+    text-align: center;
+  }
+
 }
