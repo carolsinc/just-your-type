@@ -61,8 +61,11 @@ hr {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
   table-layout: fixed;
+
+  margin-left: -.325rem;
+  margin-right: -.325rem;
+  width: calc(100% + .325rem + .325rem);
 }
 
 caption {
@@ -279,12 +282,6 @@ ul ol {
   margin-left: -1.4em;
   text-align: right;
   width: 1.3em;
-}
-
-table {
-  margin-left: -.325rem;
-  margin-right: -.325rem;
-  width: calc(100% + .325rem + .325rem);
 }
 
 input,

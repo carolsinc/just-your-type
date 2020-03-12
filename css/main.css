@@ -16,7 +16,7 @@ main {
 
 .z-1 {
   top:0;
-  z-index: 2;
+  z-index: 0;
 }
 
 .z-2 {
