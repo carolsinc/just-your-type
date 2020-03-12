@@ -15,7 +15,8 @@ main {
 }
 
 .z-1 {
-  top:0
+  top:0;
+  z-index: 2;
 }
 
 .z-2 {
@@ -29,6 +30,7 @@ main {
 .quote {
   color: #d9bd8b;
   top: 0;
+  z-index: 1000;
 }
 
 p {
@@ -52,7 +54,7 @@ strong {
   }
 
   .quote {
-    position: static;
+    position: absolute;
     text-align: center;
   }
 
