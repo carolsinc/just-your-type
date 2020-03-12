@@ -16,7 +16,7 @@ main {
 }
 
 .z-1 {
-  top:0;
+  top: 0;
   z-index: -2;
 }
 
@@ -70,6 +70,7 @@ strong {
 @media only screen and (min-width: 38em) {
 
   .quote {
-    top: 27%
+    top: 27%;
   }
+
 }
