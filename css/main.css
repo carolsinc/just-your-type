@@ -6,6 +6,7 @@ html {
 main {
   background-color: #686ba7;
   overflow: visible;
+  z-index: -1;
 }
 
 .z-5, .z-1, .z-2 {
@@ -16,11 +17,12 @@ main {
 
 .z-1 {
   top:0;
-  z-index: 0;
+  z-index: -2;
 }
 
 .z-2 {
   bottom: 0;
+  z-index: -3;
 }
 
 .z-5 {
@@ -56,6 +58,18 @@ strong {
   .quote {
     position: absolute;
     text-align: center;
+    justify-content: center;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
+}
+
+@media only screen and (min-width: 38em) {
+
+  .quote {
+    top: 27%
+  }
 }
